@@ -46,6 +46,7 @@ THEME = './theme/'
 ABOUT_PAGE = '/pages/about.html'
 TWITTER_USERNAME = 'jakevdp'
 GITHUB_USERNAME = 'jakevdp'
+STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/2937831/jakevdp'
 SHOW_ARCHIVES = True
 SHOW_FEED = True
 

@@ -12,6 +12,7 @@
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/icons.css"/>
         <style>{% include 'pygments.css' %}</style>
         <style>{% include 'main.css' %}</style>
         <style>{% include 'pygments-2.css' %}</style>
@@ -49,18 +50,23 @@
                     <a class="navbar-brand" href="/" title="Home" class="title">Jake VanderPlas</a></li>
                 </div>
                 <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+		    <ul class="nav navbar-nav navbar-left">
+                        {% if GITHUB_USERNAME %}
+			    <li><a class="nodec icon-github" href="http://github.com/{{ GITHUB_USERNAME }}" rel="me"></a></li>
+                        {% endif %}
+                        {% if TWITTER_USERNAME %}
+			    <li><a class="nodec icon-twitter" href="http://twitter.com/{{ TWITTER_USERNAME }}" rel="me"></a></li>
+                        {% endif %}
+                        {% if STACKOVERFLOW_ADDRESS %}
+			    <li><a class="nodec icon-stackoverflow" href="{{ STACKOVERFLOW_ADDRESS }}" rel="me"></a></li>
+                        {% endif %}
+		    </ul>
                     <ul class="nav navbar-nav navbar-right">
                         {% if ABOUT_PAGE %}
                             <li><a href="{{ ABOUT_PAGE }}" title="About">About</a></li>
                         {% endif %}
                         {% if PHOTOS_PAGE %}
                             <li><a href="{{ PHOTOS_PAGE }}" title="Photos">Photos</a></li>
-                        {% endif %}
-                        {% if GITHUB_USERNAME %}
-                            <li><a href="http://github.com/{{ GITHUB_USERNAME }}" title="{{ GITHUB_USERNAME }}'s Github" rel="me">Github</a></li>
-                        {% endif %}
-                        {% if TWITTER_USERNAME %}
-                            <li><a href="http://twitter.com/{{ TWITTER_USERNAME }}" title="{{ TWITTER_USERNAME }} Twitter" rel="me">Twitter</a></li>
                         {% endif %}
                         {% if SHOW_ARCHIVES %}
                             <li><a href="/archives.html" title="Archive">Archive</a></li>
