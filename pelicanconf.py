@@ -33,3 +33,9 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins', './plugins/pelican-plugins']
+PLUGINS = ['ipynb.markup', 'summary']
+IGNORE_FILES = ['.ipynb_checkpoints']
