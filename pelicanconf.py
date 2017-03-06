@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jake VanderPlas'
 SITENAME = 'Pythonic Perambulations'
+SITESUBTITLE = u'Musings and ramblings through the world of Python and beyond'
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
