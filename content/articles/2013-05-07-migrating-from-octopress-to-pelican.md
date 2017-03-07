@@ -258,7 +258,8 @@ Here is the result: a short notebook inserted directly into the post:
 
 {% notebook downloads/notebooks/TestNotebook.ipynb %}
 
-##  ##
+----
+
 With all those things in place, the blog was ready to be built.  The result
 is right in front of you: you're reading it.  If you'd like to see the source
 from which this blog built, it's available at

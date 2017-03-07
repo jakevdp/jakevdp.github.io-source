@@ -27,7 +27,7 @@ The term "Data Science" generally seems to get a bad rap: it's variously dismiss
 
 I think the best illustration of data science's definition comes from Drew Conway's [Data Science Venn Diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram), which applies the label "Data Science" to the intersection of hacking skills, statistical knowledge, and domain expertise.
 
-{% img /images/Data_Science_VD.png 440 440 %}
+{% img /images/Data_Science_VD.png 440 %}
 
 The key is that in addition to the normal depth of knowledge in one's own field, there as a rare breadth to the knowledge and skill-set of a data scientist.
 
@@ -35,7 +35,7 @@ In the words of Alex Szalay, these sorts of researchers must be "Pi-shaped" as o
 In Szalay's view, a classic PhD program generates *T-shaped* researchers: scientists with wide-but-shallow general knowledge, but deep skill and expertise in one particular area.
 The new breed of scientific researchers, the data scientists, must be *Pi-shaped*: that is, they maintain the same wide breadth, but push deeper both in their own subject area and in the statistical or computational methods that help drive modern research:
 
-{% img /images/pi_shaped.png 440 440 %}
+{% img /images/pi_shaped.png 440 %}
 
 Perhaps neither of these labels or descriptions is quite right. Another school of thought on data science is Jim Gray's idea of the ["Fourth Paradigm"](http://research.microsoft.com/en-us/collaboration/fourthparadigm/) of scientific discovery: First came the observational insights of empirical science; second were the mathematically-driven insights of theoretical science; third were the simulation-driven insights of computational science. The fourth paradigm involves primarily data-driven insights of modern scientific research.
 Perhaps just as the scientific method morphed and grew through each of the previous paradigmatic transitions, so should the scientific method across all disciplines be modified again for this new data-driven realm of knowledge.

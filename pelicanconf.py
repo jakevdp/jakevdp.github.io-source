@@ -53,3 +53,8 @@ SHOW_FEED = True
 ENABLE_MATHJAX = True
 
 STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico']
+
+# Footer info
+
+LICENSE_URL = "https://github.com/jakevdp/jakevdp.github.io-source/blob/master/LICENSE"
+LICENSE = "MIT"

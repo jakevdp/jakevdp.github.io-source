@@ -78,6 +78,7 @@ means that the animations display much more quickly.
 
 We end with an optional save command, and then a show command to show the
 result.  Here's what the script generates:
+
 {% video /downloads/videos/basic_animation.mp4 360 270 /downloads/videos/basic_animation_frame.png %}
 
 This framework for generating and saving animations is very powerful and
