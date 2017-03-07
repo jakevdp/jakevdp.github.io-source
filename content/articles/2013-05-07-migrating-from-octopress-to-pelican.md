@@ -2,6 +2,7 @@ Title: Migrating from Octopress to Pelican
 date: 2013-05-07 17:00
 comments: true
 slug: migrating-from-octopress-to-pelican
+tags: blogging,octopress,pelican
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 After nine months on Octopress, I've decided to move on.

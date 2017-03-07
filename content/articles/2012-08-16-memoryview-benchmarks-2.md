@@ -2,6 +2,7 @@ Title: Memoryview Benchmarks 2
 date: 2012-08-16 14:19
 comments: true
 slug: memoryview-benchmarks-2
+tags: numpy,cython,benchmarks,memoryviews
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 In the [previous post](/blog/2012/08/08/memoryview-benchmarks/), I explored

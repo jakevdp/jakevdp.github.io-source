@@ -2,6 +2,7 @@ Title: Hacking Super Mario Bros. with Python
 date: 2013-01-13 10:32
 comments: true
 slug: hacking-super-mario-bros-with-python
+tags: matplotlib, animation, nintendo
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

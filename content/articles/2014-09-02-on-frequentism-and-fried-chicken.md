@@ -2,6 +2,7 @@ Title: On Frequentism and Fried Chicken
 date: 2014-09-02 16:00
 comments: true
 slug: on-frequentism-and-fried-chicken
+tags: frequentism, bayesianism
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 My recent series of posts on [Frequentism and Bayesianism](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) have drawn a lot of comments, but recently Frederick J. Ross, a UW colleague whom I have not yet had the pleasure of meeting, penned a particularly strong-worded critique: [Bayesian vs frequentist: squabbling among the ignorant](http://madhadron.com/posts/2014-08-30-frequentist_and_bayesian_statistics.html). Here I want to briefly explore and respond to the points he makes in the post.

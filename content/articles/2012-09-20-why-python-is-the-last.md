@@ -2,6 +2,7 @@ Title: Why Python is the Last Language You'll Have To Learn
 date: 2012-09-20 20:50
 comments: true
 slug: why-python-is-the-last
+tags: opinion,python
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 This week, for part of a textbook I'm helping to write,

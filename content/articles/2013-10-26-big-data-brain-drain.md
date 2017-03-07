@@ -2,6 +2,7 @@ Title: The Big Data Brain Drain: Why Science is in Trouble
 date: 2013-10-26 13:00
 comments: true
 slug: big-data-brain-drain
+tags: academia, opinion
 
 *Update, August 2014: see [Hacking Academia](/blog/2014/08/22/hacking-academia/), my most recent reflection on this subject.*
 

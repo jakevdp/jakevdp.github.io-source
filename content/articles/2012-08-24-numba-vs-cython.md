@@ -2,6 +2,7 @@ Title: Numba vs Cython
 date: 2012-08-24 10:41
 comments: true
 slug: numba-vs-cython
+tags: numba,cython,benchmarks
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

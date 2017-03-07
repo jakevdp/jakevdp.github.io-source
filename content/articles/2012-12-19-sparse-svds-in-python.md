@@ -2,6 +2,7 @@ Title: Sparse SVDs in Python
 date: 2012-12-19 08:21
 comments: true
 slug: sparse-svds-in-python
+tags: linear algebra,benchmarks
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

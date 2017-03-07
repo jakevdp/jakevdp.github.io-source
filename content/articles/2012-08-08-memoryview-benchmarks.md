@@ -2,7 +2,7 @@ Title: Memoryview Benchmarks
 date: 2012-08-08 18:50
 comments: true
 slug: memoryview-benchmarks
----
+tags: benchmarks,numpy,cython
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 There was recently a [thread](https://groups.google.com/forum/?fromgroups#!topic/cython-users/8uuxjB_wbBQ[1-25] "cython-users archive")

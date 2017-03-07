@@ -2,6 +2,7 @@ Title: Hacking Academia: Data Science and the University
 date: 2014-08-22 08:00
 comments: true
 slug: hacking-academia
+tags: opinion, academia
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 *A reflection on our [SciFoo](http://www.digital-science.com/sciencefoo/) breakout session, where we discussed issues of data science within academia.*
