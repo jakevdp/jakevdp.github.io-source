@@ -10,3 +10,6 @@ __pycache__
 
 # Emacs temp files
 *~
+
+# OSX files
+.DS_Store
