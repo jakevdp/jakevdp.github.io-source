@@ -48,7 +48,7 @@ TWITTER_USERNAME = 'jakevdp'
 GITHUB_USERNAME = 'jakevdp'
 STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/2937831/jakevdp'
 SHOW_ARCHIVES = True
-SHOW_FEED = True
+SHOW_FEED = False  # Need to address large feeds
 
 ENABLE_MATHJAX = True
 

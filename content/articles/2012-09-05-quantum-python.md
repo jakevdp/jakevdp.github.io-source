@@ -2,7 +2,7 @@ Title: Quantum Python: Animating the Schrodinger Equation
 date: 2012-09-05 20:12
 comments: true
 slug: quantum-python
-tags: matplotlib,animation,tutorial
+tags: matplotlib,animation,simulation
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 *Update: a reader contributed some improvements to the Python code presented
