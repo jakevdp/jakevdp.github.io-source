@@ -52,7 +52,7 @@ SHOW_FEED = True
 
 ENABLE_MATHJAX = True
 
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico']
+STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico']
 
 # Footer info
 
