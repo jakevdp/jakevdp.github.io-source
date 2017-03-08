@@ -13,10 +13,9 @@ from pelicanconf import *
 SITEURL = 'http://jakevdp.github.io'
 RELATIVE_URLS = False
 
-# Leave feeds out; they're too large & I need to figure out how to fix that.
-# SHOW_FEED = True
-# FEED_ALL_ATOM = 'feeds/all.atom.xml'
-# CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+SHOW_FEED = True
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
