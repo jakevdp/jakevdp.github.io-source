@@ -23,7 +23,5 @@ $ open http://localhost:8000
 Deploy to github pages
 
 ```
-$ make publish
-$ ghp-import -m "Generate Pelican site" output
-$ git push git@github.com:jakevdp/jakevdp.github.io.git gh-pages:master
+$ make publish-to-github
 ```
