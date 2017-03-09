@@ -15,7 +15,9 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/icons.css"/>
         <style>{% include 'pygments.css' %}</style>
         <style>{% include 'main.css' %}</style>
-        <style>{% include 'pygments-2.css' %}</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         {% if ENABLE_MATHJAX %}
         <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
@@ -44,13 +46,18 @@
     </head>
 
     <body>
-        <header class="navbar navbar-static-top bs-docs-nav main-header">
-            <div class="container">
+        <header class="navbar navbar-inverse bs-docs-nav">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/" title="Home" class="title">Jake VanderPlas</a></li>
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavbar">
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span> 
+		  </button>
+                  <a class="navbar-brand" href="/" title="Home" class="title">{{ SITENAME }}</a>
                 </div>
-                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-		    <ul class="nav navbar-nav navbar-left">
+                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" id="theNavbar">
+		    <ul class="nav navbar-nav navbar-right">
                         {% if TWITTER_USERNAME %}
 			    <li><a class="nodec icon-twitter" href="http://twitter.com/{{ TWITTER_USERNAME }}" rel="me"></a></li>
                         {% endif %}
@@ -60,8 +67,6 @@
                         {% if STACKOVERFLOW_ADDRESS %}
 			    <li><a class="nodec icon-stackoverflow" href="{{ STACKOVERFLOW_ADDRESS }}" rel="me"></a></li>
                         {% endif %}
-		    </ul>
-                    <ul class="nav navbar-nav navbar-right">
                         {% if ABOUT_PAGE %}
                             <li><a href="{{ ABOUT_PAGE }}" title="About">About</a></li>
                         {% endif %}
