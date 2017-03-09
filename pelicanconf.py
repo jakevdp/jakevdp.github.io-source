@@ -31,9 +31,15 @@ DEFAULT_PAGINATION = 10
 
 MARKUP = ['md']
 PLUGIN_PATHS = ['./plugins', './plugins/pelican-plugins']
-PLUGINS = ['summary', 'ipynb.liquid', # 'liquid_tags.notebook',
-           'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.literal']
+PLUGINS = [
+    'summary',       # auto-summarizing articles
+    'feed_summary',  # use summaries for RSS, not full articles
+    'ipynb.liquid',  # for embedding notebooks
+    'liquid_tags.img',  # embedding images
+    'liquid_tags.video',  # embedding videos
+    'liquid_tags.include_code',  # including code blocks
+    'liquid_tags.literal'
+]
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 # for liquid tags
