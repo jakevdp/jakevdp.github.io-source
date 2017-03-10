@@ -1,18 +1,14 @@
 title: About
 slug: about
+Template: about
 
 <img src="/images/jake.jpg" align="left" width="150" style="padding-right:20px;"/>
 My name is Jake VanderPlas.
-I am an astronomer by training, currently working as the director of research
+I am an astronomer by training, and currently am the director of research
 in physical sciences at the University of Washington's
 [eScience Institute](http://escience.washington.edu/), where I spend time on
 research, teaching, and developing software tools for science.
-You can find more about me in these places:
-
-- [Twitter](http://twitter.com/jakevdp)
-- [GitHub](http://github.com/jakevdp)
-- [Google Scholar](https://scholar.google.com/citations?user=0tDjsNUAAAAJ)
-- [My Website](http://vanderplas.com)
+<br clear="left"/>
 
 If you like my blog, you might also like my books:
 

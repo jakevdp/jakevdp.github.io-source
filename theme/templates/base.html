@@ -60,15 +60,6 @@
                 </div>
                 <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" id="theNavbar">
 		    <ul class="nav navbar-nav navbar-right">
-                        {% if TWITTER_USERNAME %}
-			    <li><a class="nodec icon-twitter" href="http://twitter.com/{{ TWITTER_USERNAME }}" rel="me"></a></li>
-                        {% endif %}
-                        {% if GITHUB_USERNAME %}
-			    <li><a class="nodec icon-github" href="http://github.com/{{ GITHUB_USERNAME }}" rel="me"></a></li>
-                        {% endif %}
-                        {% if STACKOVERFLOW_ADDRESS %}
-			    <li><a class="nodec icon-stackoverflow" href="{{ STACKOVERFLOW_ADDRESS }}" rel="me"></a></li>
-                        {% endif %}
                         {% if ABOUT_PAGE %}
                             <li><a href="{{ ABOUT_PAGE }}" title="About">About</a></li>
                         {% endif %}
@@ -79,7 +70,7 @@
                             <li><a href="/archives.html" title="Archive">Archive</a></li>
                         {% endif %}
                         {% if SHOW_FEED %}
-                            <li><a href="{{ FEED_ALL_ATOM }}" title="jakevdp.github.io RSS feed" rel="me">RSS</a></li>
+                            <li><a class="nodec icon-rss" href="{{ FEED_ALL_ATOM }}" title="jakevdp.github.io RSS feed" rel="me"></a></li>
                         {% endif %}
                     </ul>
                 </nav>
