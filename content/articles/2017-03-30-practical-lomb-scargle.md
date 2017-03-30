@@ -2,29 +2,29 @@ Title: A Practical Guide to the Lomb-Scargle Periodogram
 date: 2017-03-30 06:00
 comments: true
 slug: practical-lomb-scargle
-tags: tutorial, lomb-scargle
+tags: lomb-scargle
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-Today I posted the preprint of a manuscript that started as a blog post, but quickly out-grew this medium: [Understanding the Lomb-Scargle Periodogram]().
+This week I published the preprint of a manuscript that started as a blog post, but quickly out-grew this medium: [Understanding the Lomb-Scargle Periodogram](http://arxiv.org/abs/1703.09824).
 
 <table class="image">
-<caption align="bottom" style="padding-left: 20px; padding-right:20px; font-size:small">Figure 24 from <a href="">Understanding the Lomb-Scargle Periodogram</a>. The figure shows the true period vs the periodogram peak for a
+<caption align="bottom" style="padding-left: 20px; padding-right:20px; font-size:small">Figure 24 from <a href="http://arxiv.org/abs/1703.09824">Understanding the Lomb-Scargle Periodogram</a>. The figure shows the true period vs the periodogram peak for a
 simulated dataset with an observing cadence typical of ground-based optical astronomy.
-The simulation reveals common modes of failure for the Lomb-Scargle method that are not
+The simulation reveals common patterns of failure of the Lomb-Scargle method that are not
 often discussed explicitly, but are straightforward to explain based on the intuition
 developed in the paper; see Section 7.2 for a detailed discussion.</caption>
 <tr><td><img src="/figures/lomb-scargle-failure-modes.png" alt="failure modes"/></td></tr>
 </table>
 
-Over the last couple years I've released and contributed a number of Lomb-Scargle periodogram implementations in Python (I'd recommend [AstroPy's ``LombScargle``](http://docs.astropy.org/en/stable/stats/lombscargle.html) in most cases today), and also wrote a [marginally popular blog post](/blog/2015/06/13/lomb-scargle-in-python/) and somewhat pedagogical [paper](https://arxiv.org/abs/1502.01344) on the subject.
-This has led to a steady trickle of emails from students and researchers asking for advice on applying and interpreting the Lomb-Scargle algorithm, particularly for astronomical data.
-These queries have tended to include many of the same questions and express some of the same misconceptions, and this paper is my attempt to answer all those once and for all — in a mere 55 pages and 26 figures.
+Over the last couple years I've written a number of Python implementations of the Lomb-Scargle periodogram (I'd recommend [AstroPy's ``LombScargle``](http://docs.astropy.org/en/stable/stats/lombscargle.html) in most cases today), and also wrote a [marginally popular blog post](/blog/2015/06/13/lomb-scargle-in-python/) and [somewhat pedagogical paper](https://arxiv.org/abs/1502.01344) on the subject.
+This all has led to a steady trickle of emails from students and researchers asking for advice on applying and interpreting the Lomb-Scargle algorithm, particularly for astronomical data.
+I noticed that these queries tended to repeat many of the same questions and express some similar misconceptions, and this paper is my attempt to address those once and for all — in a "mere" 55 pages (which includes 26 figures and 4 full pages of references, so it's not all that bad).
 
 <!-- PELICAN_END_SUMMARY -->
 
-While the paper's main goal is to help readers develop an intuition for what the periodogram actually measures and how this affects practical aspects of its use, I also took the opportunity to directly address some of the mythology that's been built-up around the algorithm.
-I'll let those who are interested read the [full paper]() (you can also peruse the code and re-generate the figures via [Jupyter Notebooks on GitHub](http://github.com/jakevdp/PracticalLombScargle)), but I want to highlight here my somewhat opinionated post-script on whether we should be using the Lomb-Scargle method at all.
+While the paper's main goal is to help readers develop an intuition for what the periodogram actually measures and how this affects practical considerations of its use, I also took the opportunity to directly address some of the mythology that's been built-up around the algorithm.
+I'll let those who are interested read the [full paper](http://arxiv.org/abs/1703.09824) (you can also peruse the code and re-generate the figures via [Jupyter Notebooks on GitHub](http://github.com/jakevdp/PracticalLombScargle)), but I want to highlight here my somewhat opinionated post-script outlining some of these myths, and considering whether we should be using the Lomb-Scargle method at all.
 
 The following is copied verbatim from the final section of the manuscript:
 
@@ -48,8 +48,8 @@ The following is copied verbatim from the final section of the manuscript:
 
 I think these are questions worth wrestling with.
 
-While a number of colleagues gave me immensely helpful feedback on early drafts, the paper has not yet gone through any formal peer review process.
-To this end I plan to submit the manuscript to a relevant ApJ special issue coming together later this year.
+Although a number of colleagues gave me immensely helpful feedback on early drafts, the paper has not yet gone through any formal peer review process.
+To this end I plan to submit the manuscript to a relevant ApJ special issue that is coming together later this year.
 In the meantime, if you have any comments or critiques on the draft, I'd greatly value your feedback.
 Feel free to comment here on the blog, or better, to [open a GitHub Issue](https://github.com/jakevdp/PracticalLombScargle/issues).
 
