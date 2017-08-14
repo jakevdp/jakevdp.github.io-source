@@ -4,8 +4,8 @@ Template: about
 
 <img src="/images/jake.jpg" align="left" width="150" style="padding-right:20px;"/>
 My name is Jake VanderPlas.
-I am an astronomer by training, and currently am the director of research
-in physical sciences at the University of Washington's
+I am an astronomer by training, and currently am the director open software
+at the University of Washington's
 [eScience Institute](http://escience.washington.edu/), where I spend time on
 research, teaching, and developing software tools for science.
 <br clear="left"/>
