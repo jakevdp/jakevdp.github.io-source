@@ -14,7 +14,7 @@ If you like my blog, you might also like my books:
 
 <a href="http://shop.oreilly.com/product/0636920034919.do"><img src="/images/PythonDataScience.jpg" align="left" width="100" style="padding-right:20px;"/></a>
 The *Python Data Science Handbook* by Jake VanderPlas (O'Reilly Media, 2016). This is a comprehensive introduction to the most important data science tools in the Python world. Several examples used in the book are drawn from posts on this blog.
-The content is also available as Jupyter notebooks [on GitHub](http://github.com/jakevdp/PythonDataScienceHandbook).<br clear="left"/>
+The full text can be [read online](https://jakevdp.github.io/PythonDataScienceHandbook/), and the content is also available as Jupyter notebooks [on GitHub](http://github.com/jakevdp/PythonDataScienceHandbook).<br clear="left"/>
 
 <a href="http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp"><img src="/images/WhirlwindTour.jpg" align="left" width="100" style="padding-right:20px;"/></a>
 *A Whirlwind Tour of Python* by Jake VanderPlas (O'Reilly Media, 2016). This free e-book is a fast-paced intro to Python aimed at researchers and engineers. It's content is drawn from Python intro courses and tutorials that I have taught over the years.
