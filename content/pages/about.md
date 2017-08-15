@@ -18,7 +18,7 @@ The full text can be [read online](https://jakevdp.github.io/PythonDataScienceHa
 
 <a href="http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp"><img src="/images/WhirlwindTour.jpg" align="left" width="100" style="padding-right:20px;"/></a>
 *A Whirlwind Tour of Python* by Jake VanderPlas (O'Reilly Media, 2016). This free e-book is a fast-paced intro to Python aimed at researchers and engineers. It's content is drawn from Python intro courses and tutorials that I have taught over the years.
-The content is also available as Jupyter notebooks [on GitHub](http://github.com/jakevdp/WhirlwindTourOfPython).<br clear="left"/>
+The full text can be [read online](https://jakevdp.github.io/WhirlwindTourOfPython/), and the content is also available as Jupyter notebooks [on GitHub](http://github.com/jakevdp/WhirlwindTourOfPython).<br clear="left"/>
 
 <a href="http://press.princeton.edu/titles/10159.html"><img src="/images/StatisticsDataMining.jpg" align="left" width="100" style="padding-right:20px;"/></a>
 *Statistics, Machine Learning, and Data Mining in Astronomy* by Zeljko Ivezic, Andy Connolly, Jake VanderPlas, and Alex Gray (Princeton Press, 2014). This is a graduate-level text on statistical methods in astronomy, with emphasis on Python code.
