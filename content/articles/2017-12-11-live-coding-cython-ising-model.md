@@ -1,4 +1,4 @@
-Title: Live Coding Cython: Ising Model
+Title: Optimization of Scientific Code with Cython: Ising Model
 date: 2017-12-11 12:00
 comments: true
 slug: live-coding-cython-ising-model
